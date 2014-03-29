@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[Substantiv genetiv:]:Substantiv.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ending rangeOfString:vokalePlus].location">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RulesViewController appendAttributedString:toAttributedString:]:RulesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "substantiv.declinationAttributed[caseToBuild]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[Substantiv akkusativ:]:Substantiv.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RulesViewController setupExamples]:RulesViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[Substantiv editAttributedString:withString:withGenus:]:Substantiv.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[Substantiv plural:]:Substantiv.m">
+      </ContextState>
+      <ContextState
+         contextName = "__14+[Verb verben]_block_invoke:Verb.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SubstantivListViewController collectionView:cellForItemAtIndexPath:]:SubstantivListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__25+[Substantiv substantive]_block_invoke:Substantiv.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PraepositivViewController nextSubstantiv]:PraepositivViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "nominativRussischText.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RulesViewController viewDidLoad]:RulesViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

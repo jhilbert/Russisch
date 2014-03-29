@@ -1,0 +1,20 @@
+PODS:
+  - Canvas (0.1.1)
+  - JDFlipNumberView (2.2.2):
+    - JDFlipNumberView/Core
+    - JDFlipNumberView/DefaultImageBundle
+    - JDFlipNumberView/FlipImageView
+  - JDFlipNumberView/Core (2.2.2)
+  - JDFlipNumberView/DefaultImageBundle (2.2.2):
+    - JDFlipNumberView/Core
+  - JDFlipNumberView/FlipImageView (2.2.2)
+
+DEPENDENCIES:
+  - Canvas (~> 0.1)
+  - JDFlipNumberView
+
+SPEC CHECKSUMS:
+  Canvas: f1911025fc9ec9c7339df6e4399c90c87ce6b631
+  JDFlipNumberView: 493932439af122650e36119f96fb1c3cc45e27ac
+
+COCOAPODS: 0.29.0

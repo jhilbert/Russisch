@@ -1,0 +1,64 @@
+//
+//  StartViewController.m
+//  Russisch
+//
+//  Created by Josef Hilbert on 28.03.14.
+//  Copyright (c) 2014 Josef Hilbert. All rights reserved.
+//
+
+#import "StartViewController.h"
+#import "TestSelectionViewController.h"
+
+@interface StartViewController ()
+{
+    __weak IBOutlet UITextView *mainText;
+}
+
+@end
+
+@implementation StartViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+}
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    mainText.text = @"Russische Grammatik\nГрамматика"; 
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+//    ViewController *vc = segue.destinationViewController;
+//    vc.modus = segue.identifier;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
